@@ -1,15 +1,26 @@
 /* ---- Headings ---- */
 
-h1 {} /* Reading Mode */
-h2 {} /* Reading Mode */
-h3 {} /* Reading Mode */
-h4 {} /* Reading Mode */
-h5 {} /* Reading Mode */
-h6 {} /* Reading Mode */
-.cm-header-1 {} /* Source Mode */
-.cm-header-2 {} /* Source Mode */
-.cm-header-3 {} /* Source Mode */
-.cm-header-4 {} /* Source Mode */
-.cm-header-5 {} /* Source Mode */
-.cm-header-6 {} /* Source Mode */
-.cm-header {} /*  applies to all source mode headings  */
+.HyperMD-header-1 {
+    font-size: 2.67em;
+}
+
+h1,
+.cm-header-1 {
+    font-family: var(--display-heading-font);
+    font-weight: 400 !important; /* important to override .cm-header */
+}
+
+h2,
+.cm-header-2 {}
+
+h3,
+.cm-header-3 {}
+
+h4,
+.cm-header-4 {}
+
+h5,
+.cm-header-5 {}
+
+h6,
+.cm-header-6 {}

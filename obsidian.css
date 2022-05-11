@@ -1,18 +1,14 @@
 /* ---- Fonts ---- */
+/* Import from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap");
+/* Font Families */
 :root {
-  /* 
-  If the font isn't installed in the system, 
-  it will go down the list until it finds on that is.
-   */
   --default-font: "Inter", sans-serif;
-  /* Note and Settings Text */
+  /* Note and settings text */
   --font-monospace: "Source Code Pro", monospace;
   /* Code block text */
-  /* 
-  var(--variableName); is a variable,
-  so you can use what you set over and over without having
-  to rewrite it multiple times.
-   */
+  --display-heading-font: "Ibarra Real Nova", serif;
+  /* Biggest headings */
 }
 
 /* ---- CSS Reset ---- */
@@ -311,19 +307,17 @@ since it includes any border and padding into the height and width values you se
 /* Frontmatter Tag */
 /* Reading Mode */
 /* ---- Headings ---- */
-/* Reading Mode */
-/* Reading Mode */
-/* Reading Mode */
-/* Reading Mode */
-/* Reading Mode */
-/* Reading Mode */
-/* Source Mode */
-/* Source Mode */
-/* Source Mode */
-/* Source Mode */
-/* Source Mode */
-/* Source Mode */
-/*  applies to all source mode headings  */
+.HyperMD-header-1 {
+  font-size: 2.67em;
+}
+
+h1,
+.cm-header-1 {
+  font-family: var(--display-heading-font);
+  font-weight: 400 !important;
+  /* important to override .cm-header */
+}
+
 /* ---- Horizontal Rule ---- */
 /* Reading Mode */
 /* Source Mode */
