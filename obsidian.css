@@ -316,6 +316,7 @@ h1,
   font-family: var(--display-heading-font);
   font-weight: 400 !important;
   /* important to override .cm-header */
+  font-size: 2.67em !important;
 }
 
 /* ---- Horizontal Rule ---- */
