@@ -1,0 +1,19 @@
+/* ---- Code ---- */
+
+code {}
+
+/* Inline Code */
+.cm-s-obsidian span.cm-inline-code {} /* Source Mode */
+.markdown-preview-view code {} /* Reading Mode */
+
+/* Codeblock (No Language Specified)  */
+.markdown-preview-view pre {} /* Reading Mode */
+.cm-s-obsidian pre.HyperMD-codeblock {} /* Source Mode */
+
+/* Codeblock: Language Specified: ```js */
+.markdown-preview-view pre[class*=language-] {} /* Reading Mode */
+.markdown-preview-view code[class*=language-] {} /* Reading Mode */
+
+/* -- Comments -- */
+/*  HTML Comments and Obsidian-style Comments  */
+.cm-comment {}

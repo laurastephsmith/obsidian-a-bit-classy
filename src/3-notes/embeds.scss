@@ -1,0 +1,23 @@
+/* ---- Embeds ---- */
+
+.markdown-preview-view .markdown-embed {} /* Reading Mode */
+.internal-embed.is-loaded:not(.image-embed) {} /* Reading Mode */
+
+.markdown-source-view.mod-cm6 .cm-embed-block {} /* Live Preview Mode */
+.markdown-source-view .markdown-embed:not(.mod-empty) {} /* Live Preview Mode */
+
+/* File Embed */
+.markdown-preview-view .file-embed {} /* Reading Mode */
+.markdown-source-view .file-embed:not(.mod-empty) {} /* Live Preview Mode */
+
+/* Empty/No Embed Found */
+.markdown-source-view .markdown-embed.mod-empty {} /* Live Preview Mode */
+.markdown-source-view .file-embed.mod-empty {} /* Live Preview Mode */
+
+/* Embed Titles */
+.markdown-embed-title {} /* Reading Mode */
+.file-embed-title {} /* Reading Mode */
+
+/* Embed Link */
+.markdown-embed-link {}
+.file-embed-link {}

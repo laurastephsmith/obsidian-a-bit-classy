@@ -1,0 +1,17 @@
+/* ---- Fonts ---- */
+
+:root {
+    /* 
+    If the font isn't installed in the system, 
+    it will go down the list until it finds on that is.
+     */
+
+    --default-font: "Inter", sans-serif; /* Note and Settings Text */
+    --font-monospace: "Source Code Pro", monospace; /* Code block text */
+
+    /* 
+    var(--variableName); is a variable,
+    so you can use what you set over and over without having
+    to rewrite it multiple times.
+     */
+}

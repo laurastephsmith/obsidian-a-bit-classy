@@ -1,0 +1,18 @@
+/* ---- Emphasis ---- */
+
+/* Bold */
+strong {} /* Reading View */
+.cm-s-obsidian .cm-strong {} /* Editing View */
+
+/* Italics/Emphasis */
+em {} /* Reading View */
+.cm-em {} /* Editing View */
+
+/* Highlight */
+.markdown-preview-view mark {} /* Reading View */
+.cm-s-obsidian .cm-highlight {} /* Editing View */
+.cm-s-obsidian .cm-formatting-highlight {} /* Editing View highlight symbols/syntax */
+
+/* Strikethrough */
+.cm-strikethrough {} /* Editing View */
+del {} /* Reading View */

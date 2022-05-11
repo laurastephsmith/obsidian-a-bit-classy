@@ -1,0 +1,46 @@
+/* ---- Title Bars ---- */
+
+/* -- Application Title Bar -- */
+
+.titlebar {}
+
+/* Navigation Button - Back  */
+.mod-back {}
+
+/* Navigation Button - Forward */
+.mod-forward {}
+
+/* Window Control- Minimize */
+.mod-minimize {}
+
+/* Window Control- Minimize */
+.mod-maximize {}
+
+/* Window Control- Close */
+.mod-close {}
+
+
+
+/* -- Note Title Bar -- */
+
+.workspace-leaf .view-header {}
+
+/* Inactive Note Titlebar */
+/* Note Title Bar: Text */
+.view-header-title {}
+
+/* Note Title Bar: Note Icon */
+.view-header-icon {}
+
+/* Note Title Bar: Settings Icons */
+.view-action {}
+
+/* Active Note Titlebar */
+/* Note Title Bar: Text */
+.workspace-leaf.mod-active .view-header-title {}
+
+/* Note Title Bar: Note Icon */
+.workspace-leaf.mod-active .view-header-icon {}
+
+/* Note Title Bar: Settings Icons */
+.workspace-leaf.mod-active .view-action {}

@@ -1,0 +1,34 @@
+/* ---- Lists ---- */
+
+.cm-s-obsidian .HyperMD-list-line {} /* Source Mode */
+
+/* List Bullet/Number/Formatting */
+li::marker {} /* Reading Mode */
+span.cm-formatting-list-ul {} /* Source Mode */
+span.cm-formatting-list-ol {} /* Source Mode */
+
+/* Bullet Lists */
+ul {} /* Reading Mode */
+
+/* Bullet List Text */
+ul li {} /* Reading Mode */
+
+/* Bullet List Symbol */
+ul li::marker {} /* Reading Mode */
+
+/* Numbered Lists */
+ol {} /* Reading Mode */
+
+/* Numbered List Text */
+ol li {} /* Reading Mode */
+
+/* Numbered List Number */
+ol li::marker {} /* Reading Mode */
+
+/* Checkbox List */
+li.task-list-item {} /* Reading Mode */
+input[type=checkbox i] {} /* Reading Mode */
+
+/* Checked Checkbox */
+.markdown-preview-view .task-list-item-checkbox:checked {} /* Reading Mode */
+input[type=checkbox]:checked {} /* Reading Mode */

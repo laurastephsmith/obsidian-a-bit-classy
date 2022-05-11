@@ -1,0 +1,33 @@
+// Fonts, Variables and CSS Reset
+@use '1-base/fonts.scss';
+@use '1-base/reset.scss';
+@use '1-base/variables.scss';
+
+// Application Styling
+@use '2-app/buttons.scss';
+@use '2-app/cursor.scss';
+@use '2-app/file-explorer.scss';
+@use '2-app/graph.scss';
+@use '2-app/ribbons-panels-status-bar.scss';
+@use '2-app/settings.scss';
+@use '2-app/startup-screen.scss';
+@use '2-app/title-bars.scss';
+@use '2-app/tooltips.scss';
+
+// Notes Styling
+@use '3-notes/blockquotes.scss';
+@use '3-notes/code.scss';
+@use '3-notes/embeds.scss';
+@use '3-notes/emphasis.scss';
+@use '3-notes/footnotes.scss';
+@use '3-notes/frontmatter.scss';
+@use '3-notes/headings.scss';
+@use '3-notes/horizontal-rule.scss';
+@use '3-notes/links.scss';
+@use '3-notes/lists.scss';
+@use '3-notes/notes.scss';
+@use '3-notes/tables.scss';
+
+// Core Plugins
+
+// Community Plugins

@@ -1,0 +1,13 @@
+/* ---- Footnotes ---- */
+
+/* Footnote Link in Note */
+.markdown-preview-view a.footnote-link {} /* Reading View */
+
+/* Reference Number in Text */
+.cm-s-obsidian span.cm-footref {} /* Editing View */
+
+/* Footnotes Section at the Bottom of the Note */
+.markdown-preview-view .footnotes {} /* Reading View */
+
+/* Footnote Back Ref (Arrow) at the Bottom of the Note */
+.footnote-backref {} /* Reading View */
