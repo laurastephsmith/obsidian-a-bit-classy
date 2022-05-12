@@ -4,4 +4,4 @@
 sass src/obsidian.scss obsidian.css
 
 # Copy CSS into Obsidian themes directory
-cp obsidian.css ~/Dropbox/Library/.obsidian/themes/A\ Bit\ Classy.css
+cp obsidian.css $OBSIDIAN_VAULT_PATH/.obsidian/themes/A\ Bit\ Classy.css
