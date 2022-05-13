@@ -1,20 +1,22 @@
-/* ---- Code ---- */
+/* Code
+========================================================= */
 
 code {}
 
-/* Inline Code */
+/* Inline code */
 .cm-s-obsidian span.cm-inline-code {} /* Source Mode */
 .markdown-preview-view code {} /* Reading Mode */
 
-/* Codeblock (No Language Specified)  */
+/* Codeblock (no language specified)  */
 .markdown-preview-view pre {} /* Reading Mode */
 .cm-s-obsidian pre.HyperMD-codeblock {} /* Source Mode */
 
-/* Codeblock: Language Specified: ```js */
+/* Codeblock: language specified: js */
 .markdown-preview-view pre[class*="language-"] {} /* Reading Mode */
 .markdown-preview-view code[class*="language-"] {} /* Reading Mode */
 
-/* -- Comments -- */
+/* Comments
+========================================================= */
 
-/*  HTML Comments and Obsidian-style Comments  */
+/*  HTML comments and obsidian-style comments  */
 .cm-comment {}

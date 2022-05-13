@@ -1,6 +1,12 @@
-/* ---- File Explorer ---- */
+/* File explorer
+========================================================= */
 
-/* Nav Top: Create Note, Sort, Create Folder */
+/**
+ * Also applies to many plugins displaying file lists in the
+ * side bar
+ */
+
+/* Nav top: create note, sort, create folder */
 .nav-header {}
 
 /* Folder */
@@ -10,5 +16,3 @@
 /* Files */
 .nav-file {}
 .nav-file-title {}
-
-/*  (also applies to many plugins displaying file lists in the side bar)  */

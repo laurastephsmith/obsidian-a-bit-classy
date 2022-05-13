@@ -1,34 +1,35 @@
-/* ---- Lists ---- */
+/* Lists
+========================================================= */
 
-.cm-s-obsidian .HyperMD-list-line {} /* Source Mode */
+.cm-s-obsidian .HyperMD-list-line {} /* Source mode */
 
-/* List Bullet/Number/Formatting */
-li::marker {} /* Reading Mode */
-span.cm-formatting-list-ul {} /* Source Mode */
-span.cm-formatting-list-ol {} /* Source Mode */
+/* List bullet/number/formatting */
+li::marker {} /* Reading mode */
+span.cm-formatting-list-ul {} /* Source mode */
+span.cm-formatting-list-ol {} /* Source mode */
 
-/* Bullet Lists */
-ul {} /* Reading Mode */
+/* Bullet lists */
+ul {} /* Reading mode */
 
-/* Bullet List Text */
-ul li {} /* Reading Mode */
+/* Bullet list text */
+ul li {} /* Reading mode */
 
-/* Bullet List Symbol */
-ul li::marker {} /* Reading Mode */
+/* Bullet list symbol */
+ul li::marker {} /* Reading mode */
 
-/* Numbered Lists */
-ol {} /* Reading Mode */
+/* Numbered lists */
+ol {} /* Reading mode */
 
-/* Numbered List Text */
-ol li {} /* Reading Mode */
+/* Numbered list text */
+ol li {} /* Reading mode */
 
-/* Numbered List Number */
-ol li::marker {} /* Reading Mode */
+/* Numbered list number */
+ol li::marker {} /* Reading mode */
 
-/* Checkbox List */
-li.task-list-item {} /* Reading Mode */
-input[type="checkbox" i] {} /* Reading Mode */
+/* Checkbox list */
+li.task-list-item {} /* Reading mode */
+input[type="checkbox" i] {} /* Reading mode */
 
-/* Checked Checkbox */
-.markdown-preview-view .task-list-item-checkbox:checked {} /* Reading Mode */
-input[type="checkbox"]:checked {} /* Reading Mode */
+/* Checked checkbox */
+.markdown-preview-view .task-list-item-checkbox:checked {} /* Reading mode */
+input[type="checkbox"]:checked {} /* Reading mode */

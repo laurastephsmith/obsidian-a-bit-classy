@@ -1,18 +1,19 @@
-/* ---- Emphasis ---- */
+/* Emphasis
+========================================================= */
 
 /* Bold */
-strong {} /* Reading View */
-.cm-s-obsidian .cm-strong {} /* Editing View */
+strong {} /* Reading view */
+.cm-s-obsidian .cm-strong {} /* Editing view */
 
-/* Italics/Emphasis */
-em {} /* Reading View */
-.cm-em {} /* Editing View */
+/* Italics/emphasis */
+em {} /* Reading view */
+.cm-em {} /* Editing view */
 
 /* Highlight */
-.markdown-preview-view mark {} /* Reading View */
-.cm-s-obsidian .cm-highlight {} /* Editing View */
-.cm-s-obsidian .cm-formatting-highlight {} /* Editing View highlight symbols/syntax */
+.markdown-preview-view mark {} /* Reading view */
+.cm-s-obsidian .cm-highlight {} /* Editing view */
+.cm-s-obsidian .cm-formatting-highlight {} /* Editing view highlight symbols/syntax */
 
 /* Strikethrough */
-.cm-strikethrough {} /* Editing View */
-del {} /* Reading View */
+.cm-strikethrough {} /* Editing view */
+del {} /* Reading view */

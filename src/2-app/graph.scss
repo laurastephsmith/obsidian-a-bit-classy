@@ -1,57 +1,72 @@
-/* ---- Graph ---- */
+/* # Graph
+========================================================= */
 
+/* Colour of nodes */
 .graph-view.color-fill {
-    color: var(--text-muted); /* color of nodes */
+    color: var(--text-muted);
 }
 
-.graph-view.color-fill-focused { /* color of focused node/note */
+/* Colour of focused node/note */
+.graph-view.color-fill-focused {
     color: #fd0;
 }
 
-.theme-dark .graph-view.color-fill-tag { /* dark mode tag color */
+/* Dark mode tag colour */
+.theme-dark .graph-view.color-fill-tag {
     color: #704214;
 }
 
-.theme-light .graph-view.color-fill-tag { /* light mode tag color */
+/* Light mode tag colour */
+.theme-light .graph-view.color-fill-tag {
     color: #e0d3af;
 }
 
-.theme-dark .graph-view.color-fill-attachment { /* dark mode attachment color */
+/* Dark mode attachment colour */
+.theme-dark .graph-view.color-fill-attachment {
     color: #1a356b;
 }
 
-.theme-light .graph-view.color-fill-attachment { /* light mode attachment color */
+/* Light mode attachment colour */
+.theme-light .graph-view.color-fill-attachment {
     color: #83d4f4;
 }
 
-.graph-view.color-fill-unresolved { /* unresolved(not created yet) notes */
+/* Unresolved (not yet created) notes */
+.graph-view.color-fill-unresolved {
     color: var(--text-muted);
     opacity: 0.4;
 }
 
-.graph-view.color-arrow { /* arrow color */
+/* Arrow colour */
+.graph-view.color-arrow {
     color: var(--text-normal);
     opacity: 0.5;
 }
 
-.graph-view.color-circle { /* focused node border color */
+/* Focused node border colour */
+.graph-view.color-circle {
     color: var(--text-normal);
 }
 
-.graph-view.color-line { /* link color */
+/* Link colour */
+.graph-view.color-line {
     color: var(--background-modifier-border);
 }
 
-.graph-view.color-text { /* text color */
+/* Text colour */
+.graph-view.color-text {
     color: var(--text-normal);
 }
 
-.graph-view.color-fill-highlight { /* focused node color */
+/* Focused node colour */
+.graph-view.color-fill-highlight {
     color: var(--interactive-accent);
 }
 
-.graph-view.color-line-highlight { /* focused node connections */
+/* Focused node connections */
+.graph-view.color-line-highlight {
     color: var(--interactive-accent);
 }
 
-.graph-controls {} /* Graph Menu */
+/* Graph menu */
+.graph-controls {}

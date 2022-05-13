@@ -1,13 +1,22 @@
-/* ---- Fonts ---- */
+/* Fonts
+========================================================= */
 
-/* Embed Google Fonts */
+/* Embed Google Fonts
+--------------------------------------------------------- */
 
 /* Encoded using https://amio.github.io/embedded-google-fonts */
 @use "ibarra-real-nova.scss";
 
-/* Font Families */
+/* Font families
+--------------------------------------------------------- */
+
 :root {
-    --default-font: "Inter", sans-serif; /* Note and settings text */
-    --font-monospace: "Source Code Pro", monospace; /* Code block text */
-    --display-heading-font: "Ibarra Real Nova", serif; /* Biggest headings */
+    /* Note and settings text */
+    --default-font: "Inter", sans-serif;
+
+    /* Code block text */
+    --font-monospace: "Source Code Pro", monospace;
+
+    /* Biggest headings */
+    --display-heading-font: "Ibarra Real Nova", serif;
 }

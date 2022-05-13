@@ -1,9 +1,17 @@
-/* ---- CSS Reset ---- */
+/* CSS reset
+========================================================= */
 
-/* Box Sizing Reset - this makes it easier to set any ::before and ::after pseudo-elements' dimensions,
-since it includes any border and padding into the height and width values you set.
+/* Box sizing reset
+--------------------------------------------------------- */
 
-*,
+/**
+ * This makes it easier to set any ::before and ::after
+ * pseudo-elements' dimensions, since it includes any border
+ * and padding into the height and width values you set.
+ */
+
+/*
+*,|
 *::before,
 *::after {
   box-sizing: border-box;

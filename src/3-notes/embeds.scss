@@ -1,23 +1,24 @@
-/* ---- Embeds ---- */
+/* Embeds
+========================================================= */
 
-.markdown-preview-view .markdown-embed {} /* Reading Mode */
-.internal-embed.is-loaded:not(.image-embed) {} /* Reading Mode */
+.markdown-preview-view .markdown-embed {} /* Reading mode */
+.internal-embed.is-loaded:not(.image-embed) {} /* Reading mode */
 
-.markdown-source-view.mod-cm6 .cm-embed-block {} /* Live Preview Mode */
-.markdown-source-view .markdown-embed:not(.mod-empty) {} /* Live Preview Mode */
+.markdown-source-view.mod-cm6 .cm-embed-block {} /* Live preview mode */
+.markdown-source-view .markdown-embed:not(.mod-empty) {} /* Live preview mode */
 
-/* File Embed */
-.markdown-preview-view .file-embed {} /* Reading Mode */
-.markdown-source-view .file-embed:not(.mod-empty) {} /* Live Preview Mode */
+/* File embed */
+.markdown-preview-view .file-embed {} /* Reading mode */
+.markdown-source-view .file-embed:not(.mod-empty) {} /* Live preview mode */
 
-/* Empty/No Embed Found */
-.markdown-source-view .markdown-embed.mod-empty {} /* Live Preview Mode */
-.markdown-source-view .file-embed.mod-empty {} /* Live Preview Mode */
+/* Empty/no embed found */
+.markdown-source-view .markdown-embed.mod-empty {} /* Live preview mode */
+.markdown-source-view .file-embed.mod-empty {} /* Live preview mode */
 
-/* Embed Titles */
-.markdown-embed-title {} /* Reading Mode */
-.file-embed-title {} /* Reading Mode */
+/* Embed titles */
+.markdown-embed-title {} /* Reading mode */
+.file-embed-title {} /* Reading mode */
 
-/* Embed Link */
+/* Embed links */
 .markdown-embed-link {}
 .file-embed-link {}
