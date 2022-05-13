@@ -27,8 +27,8 @@ ol li::marker {} /* Reading Mode */
 
 /* Checkbox List */
 li.task-list-item {} /* Reading Mode */
-input[type=checkbox i] {} /* Reading Mode */
+input[type="checkbox" i] {} /* Reading Mode */
 
 /* Checked Checkbox */
 .markdown-preview-view .task-list-item-checkbox:checked {} /* Reading Mode */
-input[type=checkbox]:checked {} /* Reading Mode */
+input[type="checkbox"]:checked {} /* Reading Mode */

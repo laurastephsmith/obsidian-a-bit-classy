@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Lint Sass
+npx stylelint --fix "**/*.scss"
+
 # Compile Sass
 sass src/obsidian.scss obsidian.css
 

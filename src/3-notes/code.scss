@@ -11,9 +11,10 @@ code {}
 .cm-s-obsidian pre.HyperMD-codeblock {} /* Source Mode */
 
 /* Codeblock: Language Specified: ```js */
-.markdown-preview-view pre[class*=language-] {} /* Reading Mode */
-.markdown-preview-view code[class*=language-] {} /* Reading Mode */
+.markdown-preview-view pre[class*="language-"] {} /* Reading Mode */
+.markdown-preview-view code[class*="language-"] {} /* Reading Mode */
 
 /* -- Comments -- */
+
 /*  HTML Comments and Obsidian-style Comments  */
 .cm-comment {}

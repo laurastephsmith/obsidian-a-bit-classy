@@ -40,7 +40,7 @@ since it includes any border and padding into the height and width values you se
 } */
 /* ---- Variables ---- */
 .theme-dark {
-  --background-modifier-cover: rgba(0, 0, 0, 0.8);
+  --background-modifier-cover: rgb(0 0 0 / 80%);
   /* Obsidian Title Bar Bg */
   --background-primary: #202020;
   /* Note background */
@@ -48,7 +48,7 @@ since it includes any border and padding into the height and width values you se
   /* Note Title background active */
   --background-secondary: #161616;
   /* Sidebar background */
-  --background-secondary-alt: #000000;
+  --background-secondary-alt: #000;
   /* Sidebar Title background */
   --background-modifier-border: #333;
   /* Border outline of quotes, tables, line breaks */
@@ -62,11 +62,11 @@ since it includes any border and padding into the height and width values you se
   /* Links hover */
   --text-faint: #666;
   /* Link brackets color & Gutter Numbers */
-  --text-highlight-bg: rgba(255, 255, 0, 0.4);
+  --text-highlight-bg: rgb(255 255 0 / 40%);
   /* Search Matches */
-  --text-highlight-bg-active: rgba(255, 128, 0, 0.4);
+  --text-highlight-bg-active: rgb(255 128 0 / 40%);
   /* Active Search Match (Preview Mode) */
-  --text-selection: rgba(23, 48, 77, 0.99);
+  --text-selection: rgb(23 48 77 / 99%);
   /* Text Selections */
   --interactive-normal: #2a2a2a;
   /* Button Color */
@@ -76,16 +76,16 @@ since it includes any border and padding into the height and width values you se
   /* Workspace Note Title Underline */
   --interactive-accent-hover: #4d3ca6;
   /* Menu Button Hover */
-  --scrollbar-bg: rgba(255, 255, 255, 0.05);
+  --scrollbar-bg: rgb(255 255 255 / 5%);
   /* Scrollbar Gutter Background */
-  --scrollbar-thumb-bg: rgba(255, 255, 255, 0.1);
+  --scrollbar-thumb-bg: rgb(255 255 255 / 10%);
   /* Scrollbar Color */
-  --scrollbar-active-thumb-bg: rgba(255, 255, 255, 0.2);
+  --scrollbar-active-thumb-bg: rgb(255 255 255 / 20%);
   /* Scrollbar Dragged Color */
 }
 
 .theme-light {
-  --background-primary: #ffffff;
+  --background-primary: #fff;
   /* Note background */
   --background-primary-alt: #f5f6f8;
   /* Note Title background active */
@@ -97,33 +97,33 @@ since it includes any border and padding into the height and width values you se
   /* Border outline of quotes, tables, line breaks */
   --text-normal: #2e3338;
   /* Text body of note */
-  --text-muted: #888888;
+  --text-muted: #888;
   /* Text darker for sidebar, toggles, inactive, tags, etc */
   --text-accent: #705dcf;
   /* Links */
   --text-accent-hover: #7a6ae6;
   /* Links hover */
-  --text-faint: #999999;
+  --text-faint: #999;
   /* Link brackets color */
-  --text-highlight-bg: rgba(255, 255, 0, 0.4);
+  --text-highlight-bg: rgb(255 255 0 / 40%);
   /* Search Matches */
-  --text-highlight-bg-active:rgba(255, 128, 0, 0.4);
+  --text-highlight-bg-active: rgb(255 128 0 / 40%);
   /* Active Search Match (Preview Mode) */
-  --text-selection: rgba(23, 48, 77, 0.99);
+  --text-selection: rgb(23 48 77 / 99%);
   /* Text Selections */
   --interactive-normal: #f2f3f5;
   /* Button background Color */
-  --interactive-hover:#e9e9e9;
+  --interactive-hover: #e9e9e9;
   /* Button Hovered Color */
   --interactive-accent: #7b6cd9;
   /* Workspace Note Title Underline */
   --interactive-accent-hover: #8273e6;
   /* Menu Button Hover */
-  --scrollbar-bg: rgba(0, 0, 0, 0.05);
+  --scrollbar-bg: rgb(0 0 0 / 5%);
   /* Scrollbar Gutter Background */
-  --scrollbar-thumb-bg: rgba(0, 0, 0, 0.1);
+  --scrollbar-thumb-bg: rgb(0 0 0 / 10%);
   /* Scrollbar Color */
-  --scrollbar-active-thumb-bg: rgba(0, 0, 0, 0.2);
+  --scrollbar-active-thumb-bg: rgb(0 0 0 / 20%);
   /* Scrollbar Dragged Color */
 }
 
@@ -172,7 +172,7 @@ since it includes any border and padding into the height and width values you se
 
 .graph-view.color-fill-focused {
   /* color of focused node/note */
-  color: #ffdd00;
+  color: #fd0;
 }
 
 .theme-dark .graph-view.color-fill-tag {
@@ -182,7 +182,7 @@ since it includes any border and padding into the height and width values you se
 
 .theme-light .graph-view.color-fill-tag {
   /* light mode tag color */
-  color: #E0D3AF;
+  color: #e0d3af;
 }
 
 .theme-dark .graph-view.color-fill-attachment {
@@ -192,7 +192,7 @@ since it includes any border and padding into the height and width values you se
 
 .theme-light .graph-view.color-fill-attachment {
   /* light mode attachment color */
-  color: #83D4F4;
+  color: #83d4f4;
 }
 
 .graph-view.color-fill-unresolved {

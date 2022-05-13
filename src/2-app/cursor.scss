@@ -1,22 +1,22 @@
 /* ---- Cursor ---- */
 
 .cm-cursorLayer .cm-cursor {
-	/*  border-left: ...  */
+    /*  border-left: ...  */
 }
 
 /*  Animation of the Blinking  */
 .cm-cursorLayer {
-	/*  Deactivate Built-in Animation from CodeMirror  */
-	animation-name: none !important; /* important needed */
+    /*  Deactivate Built-in Animation from CodeMirror  */
+    animation-name: none !important; /* important needed */
 }
 
 @keyframes phase-blink {
-	15% { opacity: 1 }
-	50% { opacity: 0 }
-	85% { opacity: 1 }
+    15% { opacity: 1; }
+    50% { opacity: 0; }
+    85% { opacity: 1; }
 }
 
 .cm-cursorLayer .cm-cursor {
-	animation-duration: 2200ms;
-	animation-name: phase-blink;
+    animation-duration: 2200ms;
+    animation-name: phase-blink;
 }
