@@ -49,6 +49,11 @@
 } */
 /* Variables
 ========================================================= */
+.theme-light {
+  /* Border outline of quotes, tables, line breaks */
+  --background-modifier-border: #000;
+}
+
 /* Buttons
 ========================================================= */
 /* Default buttons */
