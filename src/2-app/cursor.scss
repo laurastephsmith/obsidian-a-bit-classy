@@ -3,9 +3,10 @@
 
 .cm-cursorLayer .cm-cursor {
     /*  border-left: ...  */
+    animation-name: phase-blink;
+    animation-duration: 2200ms;
 }
 
-/*  Animation of blinking  */
 .cm-cursorLayer {
     /*  Deactivate built-in animation from CodeMirror  */
     animation-name: none !important; /* important needed */
@@ -15,9 +16,4 @@
     15% { opacity: 1; }
     50% { opacity: 0; }
     85% { opacity: 1; }
-}
-
-.cm-cursorLayer .cm-cursor {
-    animation-name: phase-blink;
-    animation-duration: 2200ms;
 }

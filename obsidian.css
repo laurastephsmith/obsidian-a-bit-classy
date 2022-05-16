@@ -63,9 +63,10 @@
 ========================================================= */
 .cm-cursorLayer .cm-cursor {
   /*  border-left: ...  */
+  animation-name: phase-blink;
+  animation-duration: 2200ms;
 }
 
-/*  Animation of blinking  */
 .cm-cursorLayer {
   /*  Deactivate built-in animation from CodeMirror  */
   animation-name: none !important;
@@ -83,11 +84,6 @@
     opacity: 1;
   }
 }
-.cm-cursorLayer .cm-cursor {
-  animation-name: phase-blink;
-  animation-duration: 2200ms;
-}
-
 /* File explorer
 ========================================================= */
 /**
