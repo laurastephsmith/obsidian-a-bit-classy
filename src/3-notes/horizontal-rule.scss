@@ -1,9 +1,33 @@
 /* Horizontal rule
 ========================================================= */
 
-hr {} /* Reading mode */
-.hr.cm-line {} /* Source mode */
-.HyperMD-hr-bg {} /* Source mode */
+.markdown-rendered hr,
+.markdown-source-view .hr hr {
+    /* Don't hide the top half of the character */
+    overflow: visible;
+    /* The <br> is 2em high, so add that to the bottom
+    margin to get the top margin. */
+    margin: 4em 5em 2em;
+    border-top: solid 1px;
+    color: var(--text-normal);
+    text-align: center;
+}
 
-/* Horizontal rule text */
-.cm-s-obsidian pre.HyperMD-hr {} /* Source mode */
+.markdown-source-view .hr hr {
+    /* In source view there's a 1 em blank line above and
+    below the <hr>, so take 1em off each compared with
+    the rendered version. */
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+.markdown-rendered hr::after,
+.markdown-source-view .hr hr::after {
+    content: "❦";
+    position: relative;
+    top: -0.75em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    background: #fff;
+    font-size: 1.33em;
+}
