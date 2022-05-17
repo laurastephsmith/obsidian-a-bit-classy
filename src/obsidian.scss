@@ -1,33 +1,37 @@
-// Fonts, variables and CSS reset
-@use "1-base/fonts.scss";
-@use "1-base/reset.scss";
-@use "1-base/variables.scss";
+// External resources
+@use "1-resources/external-resources.scss";
+@use "1-resources/ibarra-real-nova.scss";
+
+// Font familes, variables and CSS reset
+@use "2-base/font-families.scss";
+@use "2-base/reset.scss";
+@use "2-base/variables.scss";
 
 // Application styling
-@use "2-app/buttons.scss";
-@use "2-app/cursor.scss";
-@use "2-app/file-explorer.scss";
-@use "2-app/graph.scss";
-@use "2-app/ribbons-panels-status-bar.scss";
-@use "2-app/settings.scss";
-@use "2-app/startup-screen.scss";
-@use "2-app/title-bars.scss";
-@use "2-app/tooltips.scss";
+@use "3-app/buttons.scss";
+@use "3-app/cursor.scss";
+@use "3-app/file-explorer.scss";
+@use "3-app/graph.scss";
+@use "3-app/ribbons-panels-status-bar.scss";
+@use "3-app/settings.scss";
+@use "3-app/startup-screen.scss";
+@use "3-app/title-bars.scss";
+@use "3-app/tooltips.scss";
 
 // Notes styling
-@use "3-notes/blockquotes.scss";
-@use "3-notes/code.scss";
-@use "3-notes/comments.scss";
-@use "3-notes/embeds.scss";
-@use "3-notes/emphasis.scss";
-@use "3-notes/footnotes.scss";
-@use "3-notes/frontmatter.scss";
-@use "3-notes/headings.scss";
-@use "3-notes/horizontal-rule.scss";
-@use "3-notes/links.scss";
-@use "3-notes/lists.scss";
-@use "3-notes/notes.scss";
-@use "3-notes/tables.scss";
+@use "4-notes/blockquotes.scss";
+@use "4-notes/code.scss";
+@use "4-notes/comments.scss";
+@use "4-notes/embeds.scss";
+@use "4-notes/emphasis.scss";
+@use "4-notes/footnotes.scss";
+@use "4-notes/frontmatter.scss";
+@use "4-notes/headings.scss";
+@use "4-notes/horizontal-rule.scss";
+@use "4-notes/links.scss";
+@use "4-notes/lists.scss";
+@use "4-notes/notes.scss";
+@use "4-notes/tables.scss";
 
 // Core plugins
 
