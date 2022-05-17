@@ -3,10 +3,16 @@
 
 :root {
     /* Note and settings text */
-    --default-font: "Inter", sans-serif;
+    // --default-font: "Inter", sans-serif;
 
     /* Code block text */
-    --font-monospace: "Source Code Pro", monospace;
+    // --font-monospace: "Source Code Pro", monospace;
+}
+
+body {
+    /* Note text */
+    --font-text-theme: "EB Garamond (Embedded)", serif;
+    --font-text-size: 1.5em !important;
 
     /* Biggest headings */
     --display-heading-font: "Ibarra Real Nova (Embedded)", serif;
