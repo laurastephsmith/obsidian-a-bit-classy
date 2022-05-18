@@ -2,7 +2,7 @@
 ========================================================= */
 
 /* Some things override on .HyperMD-header, some on
-   .cm-header; so use both */
+   .cm-header; so use both. */
 .markdown-rendered h1,
 .markdown-rendered h2,
 .markdown-rendered h3,
@@ -17,7 +17,7 @@
 }
 
 .markdown-rendered h1 {
-    /* Set rendered h1 size in same way source view h1 size is by default */
+    /* Set rendered h1 size in same way source view h1 size is by default. */
     font-size: var(--h1);
 }
 

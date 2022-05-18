@@ -310,7 +310,7 @@ body {
 /* Headings
 ========================================================= */
 /* Some things override on .HyperMD-header, some on
-   .cm-header; so use both */
+   .cm-header; so use both. */
 .markdown-rendered h1,
 .markdown-rendered h2,
 .markdown-rendered h3,
@@ -325,7 +325,7 @@ body {
 }
 
 .markdown-rendered h1 {
-  /* Set rendered h1 size in same way source view h1 size is by default */
+  /* Set rendered h1 size in same way source view h1 size is by default. */
   font-size: var(--h1);
 }
 
@@ -333,14 +333,14 @@ body {
 ========================================================= */
 .markdown-rendered hr,
 .markdown-source-view .hr hr {
-  /* Don't hide the top half of the character */
+  /* Don't hide the top half of the character. */
   overflow: visible;
   /* The <br> is 2em high, so add that to the bottom
   margin to get the top margin. */
   margin: 4em 5em 2em;
   border-top: solid 1px;
   color: var(--text-normal);
-  /* Let's use the hedera from Cormorant: it's prettier */
+  /* Let's use the hedera from Cormorant: it's prettier. */
   font-family: var(--heading-font);
   text-align: center;
 }
