@@ -309,15 +309,19 @@ body {
 /* Reading mode */
 /* Headings
 ========================================================= */
+/* Some things override on .HyperMD-header, some on
+   .cm-header; so use both */
 .markdown-rendered h1,
 .markdown-rendered h2,
 .markdown-rendered h3,
 .markdown-rendered h4,
 .markdown-rendered h5,
 .markdown-rendered h6,
+.markdown-source-view .HyperMD-header,
 .markdown-source-view .cm-header {
   font-weight: 400;
   font-family: var(--heading-font);
+  line-height: 1.25em;
 }
 
 .markdown-rendered h1 {
