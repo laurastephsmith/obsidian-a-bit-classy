@@ -76,7 +76,6 @@ body {
   /* Headings */
   --heading-font: "Cormorant (Embedded)", serif;
   --h1: 2.6em;
-  /* Source view */
 }
 
 /* CSS reset
@@ -337,6 +336,8 @@ body {
   margin: 4em 5em 2em;
   border-top: solid 1px;
   color: var(--text-normal);
+  /* Let's use the hedera from Cormorant: it's prettier */
+  font-family: var(--heading-font);
   text-align: center;
 }
 
