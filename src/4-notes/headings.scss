@@ -1,23 +1,36 @@
 /* Headings
 ========================================================= */
 
-h1,
-.cm-header-1 {
-    font-weight: 400 !important; /* important to override .cm-header */
-    font-family: var(--display-heading-font);
+.markdown-rendered h1,
+.markdown-rendered h2,
+.markdown-rendered h3,
+.markdown-rendered h4,
+.markdown-rendered h5,
+.markdown-rendered h6,
+.markdown-source-view .cm-header {
+    font-weight: 400;
+    font-family: var(--heading-font);
 }
 
-h2,
-.cm-header-2 {}
+.markdown-rendered h1 {
+    /* Set rendered h1 size in same way source view h1 size is by default */
+    font-size: var(--h1);
+}
 
-h3,
-.cm-header-3 {}
+// h1,
+// .cm-header-1 {}
 
-h4,
-.cm-header-4 {}
+// h2,
+// .cm-header-2 {}
 
-h5,
-.cm-header-5 {}
+// h3,
+// .cm-header-3 {}
 
-h6,
-.cm-header-6 {}
+// h4,
+// .cm-header-4 {}
+
+// h5,
+// .cm-header-5 {}
+
+// h6,
+// .cm-header-6 {}
